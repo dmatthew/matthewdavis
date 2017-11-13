@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Matthew Davis - Software Engineer</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+		<link href="css/main.css" rel="stylesheet">
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body data-spy="scroll" data-target=".navbar">
+	<!-- LANDING -->
+		<div id="landing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/jeter-and-me.jpg" alt="Me and my dog Jeter on a walk." class="img-responsive">
+					</div>
+					<div class="col-md-6">
+						<h1>Hi, my name is Matt</h1>
+						<p>I'm a Software Engineer living in Portland, Oregon with knowledge of PHP, JavaScript, HTML, and CSS.</p>
+						<p><a href="#about-me" class="btn btn-primary btn-lg inner-link" role="button">Learn more</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- END LANDING -->
+
+	<!-- NAVIGATION BAR -->
+		<nav class="navbar navbar-fixed-top" role="navigation">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-main">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-main">
+				<div class="container-fluid">
+					<ul class="nav navbar-nav">
+						<li><a href="#about-me" class="inner-link">About Me</a></li>
+						<li><a href="#my-projects" class="inner-link">Projects</a></li>
+						<li><a href="#education" class="inner-link">Education</a></li>
+						<li><a href="#technical-skills" class="inner-link">Technical Skills</a></li>
+						<li><a href="#links" class="inner-link">Links</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	<!-- END NAVIGATION BAR -->
+
+	<!-- ABOUT ME -->
+		<div id="about-me">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="heading">About Me</h2>
+                        <p>Hello, my name is Matt Davis. I'm a software engineer with experience in the full software development life cycle, including estimating projects, writing code, automated testing, and writing documentation.</p>
+						<p>Most recently I worked for Copious, a digital agency in Portland, Oregon. At Copious I helped build e-commerce websites for our clients, extending the Magento platform (I'm a certified Magento developer!). I worked on new site builds as well as site maintenance, which included adding new features and fixing bugs.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- END ABOUT ME -->
+
+	<!-- MY PROJECTS -->
+		<div id="my-projects">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="heading">My Personal Projects</h2>
+						<div class="col-md-4">
+							<h3 class="subheading">GolfPOD Website</h3>
+							<img class="img-responsive img-project" src="images/home-full.jpg" alt="The homepage of my golfing blog, GolfPOD" title="The homepage of my golfing blog, GolfPOD.">
+							<p class="btn-list"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#golfpod-modal">Learn more</button>
+							<a class="btn btn-warning btn-lg" href="http://golfpod.matthewdavis.work" target="_blank">Go to site</a></p>
+						</div>
+						<div class="col-md-4">
+							<h3 class="subheading">Magento Modules</h3>
+							<img class="img-responsive img-project" src="images/magento_admin_edit_attribute_descriptions.jpg" alt="The homepage of my mobile app for golfpod." title="The homepage to my mobile app, golfpod, click for more details.">
+							<p class="btn-list"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#magento-modal">Learn more</button></p>
+						</div>
+						<div class="col-md-4">
+							<h3 class="subheading">My Secret Language App</h3>
+							<img class="img-responsive img-project" src="images/my_secret_language_home.jpg" alt="My Secret Language web app." title="My Secret Language web app">
+							<p class="btn-list"><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#msl-modal">Learn more</button>
+							<a class="btn btn-warning btn-lg" href="http://msl.matthewdavis.work" target="_blank">Go to app</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- END MY PROJECTS -->
+
+	<!-- GOLFPOD CAROUSEL -->
+		<div id="golfpod-modal" class="modal fade" tabindex="-1" role="dialog">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title">CraftCMS Golfing Blog: GolfPOD</h4>
+			  </div>
+			  <div class="modal-body">
+				<div id="carousel-golfpod" class="carousel slide" data-interval="false">
+				  <!-- Indicators -->
+				  <!-- <ol class="carousel-indicators">
+					<li data-target="#carousel-golfpod" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-golfpod" data-slide-to="1"></li>
+				    <li data-target="#carousel-golfpod" data-slide-to="2"></li>
+					<li data-target="#carousel-golfpod" data-slide-to="3"></li>
+				  </ol> -->
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+					<div class="item active">
+					  <div class="row">
+						<div class="col-md-6">
+						  <img class="img-responsive" src="images/home-full.jpg" alt="Homepage to the GolfPOD website." title="Homepage to the GolfPOD website.">
+						</div>
+						<div class="col-md-6">
+						  <div>
+							<p class="page-description">GolfPOD is built with the <a href="https://craftcms.com" target="_blank">CraftCMS</a> framework, a PHP content management system.</p>
+							<p>The GolfPOD website features golfing games and drills for golfers of all ages and skill levels. It is designed to provide fun and challenging games and drills for golfers to play while on the course or at the driving range.</p>
+                            <p>The GolfPOD application has gone through many restructurings. Beginning as a bare-bones PHP application, I rebuilt GolfPOD using the Laravel Framework, and eventually rebuilt the site again as a CraftCMS application.</p>
+							<p>You can view the current code in my <a href="https://github.com/dmatthew/golfpod/" target="_blank">GolfPOD GitHub repository</a> or test out the live site <a href="http://golfpod.matthewdavis.work/" target="_blank">here</a></p>
+							<p>Key details:</p>
+							<p><span class="glyphicon glyphicon-star"></span> Its hosted in the cloud with <a href="https://www.digitalocean.com/" target="_blank">DigitalOcean</a>.</p>
+							<p><span class="glyphicon glyphicon-star"></span> Uses <a href="https://circleci.com/" target="_blank">CircleCI</a> to manage deployments. Git commits kick off builds on CircleCI and deploy the application to my DigitalOcean servers. Super easy!</p>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <!-- Controls -->
+				  <!-- <a class="left carousel-control" href="#carousel-golfpod" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-golfpod" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				  </a> -->
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	<!-- END GOLFPOD CAROUSEL -->
+
+	<!-- MAGENTO CAROUSEL -->
+		<div id="magento-modal" class="modal fade" tabindex="-1" role="dialog">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title">Magento Modules</h4>
+			  </div>
+			  <div class="modal-body">
+				<div id="carousel-magento" class="carousel slide" data-interval="false">
+				  <!-- Indicators -->
+				  <!-- <ol class="carousel-indicators">
+					<li data-target="#carousel-magento" data-slide-to="0" class="active"></li>
+				  </ol> -->
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+					<div class="item active">
+					  <div class="row">
+						<div class="col-md-6">
+						  <img class="img-responsive" src="images/magento_admin_edit_attribute_descriptions.jpg" alt="" title="">
+						</div>
+						<div class="col-md-6">
+						  <div>
+							<p class="page-description">As a <a href="https://u.magento.com/certification/directory/dev/2018282/" target="_blank">Certified Magento Developer</a> I have developed many custom extensions for client websites.</p>
+							<p>I have built modules for Magento 1 and Magento 2 websites, on both the Enterprise and Community editions of the platform. Magento modules are composer installable so I can reuse them on multiple projects to speed up development times. All of the modules I develop outside of client work are open source and can be found on my GitHub profile links below.</p>
+							<p>Custom Magento Modules:</p>
+							<p><span class="glyphicon glyphicon-star"></span> <a href="https://github.com/dmatthew/magento2-attribute-description" target="_blank">Magento 2 Attribute Descriptions Module</a></p>
+							<p><span class="glyphicon glyphicon-star"></span> <a href="https://github.com/dmatthew/magento-ajax-compare" target="_blank">Magento 2 AJAX Compare Module</a></p>
+							<p><span class="glyphicon glyphicon-star"></span> <a href="https://github.com/dmatthew/magento2-module-brand" target="_blank">Magento 2 Brands Module</a></p>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  <!-- Controls -->
+				  <!-- <a class="left carousel-control" href="#carousel-magento" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				  </a>
+				  <a class="right carousel-control" href="#carousel-magento" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				  </a> -->
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	<!-- END MAGENTO CAROUSEL -->
+
+	<!-- MY SECRET LANGUAGE MODAL -->
+		<div id="msl-modal" class="modal fade" tabindex="-1" role="dialog">
+		  <div class="modal-dialog modal-lg">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title">My Secret Language App</h4>
+			  </div>
+			  <div class="modal-body">
+				<div id="carousel-msl" class="carousel slide" data-interval="false">
+  				  <!-- Indicators -->
+  				  <!-- <ol class="carousel-indicators">
+  					<li data-target="#carousel-magento" data-slide-to="0" class="active"></li>
+  				  </ol> -->
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+					<div class="item active">
+					  <div class="row">
+						<div class="col-md-6">
+						  <img class="img-responsive" src="images/my_secret_language_notes.jpg" alt="My Secret Language App Notes Page" title="My Secret Language App Notes Page">
+						</div>
+						<div class="col-md-6">
+						  <div>
+							<p class="page-description">Create your own secret language!</p>
+							<p>Built with <a href="https://angularjs.org/" target="_blank">AngularJS</a> v1.2 and Intel's UI <a href="https://github.com/intel/appframework" target="_blank">App Framework</a>. The My Secret Language app uses the Local Storage API so users can use the app anywhere, even offline.</p>
+							<p>Features of the app:</p>
+							<p><span class="glyphicon glyphicon-star"></span> Add, edit, and delete new words.</p>
+							<p><span class="glyphicon glyphicon-star"></span> Translate sentences from English into your secret language.</p>
+							<p><span class="glyphicon glyphicon-star"></span> View all your words in your own language's dictionary.</p>
+							<p><span class="glyphicon glyphicon-star"></span> Study your own secret language by using the app's flashcards feature.</p>
+							<p><span class="glyphicon glyphicon-star"></span> Can be used offline when you don't have an internet connection.</p>
+						  </div>
+						</div>
+					  </div>
+				    </div>
+					<!-- Controls -->
+  				  <!-- <a class="left carousel-control" href="#carousel-msl" role="button" data-slide="prev">
+  					<span class="glyphicon glyphicon-chevron-left"></span>
+  				  </a>
+  				  <a class="right carousel-control" href="#carousel-msl" role="button" data-slide="next">
+  					<span class="glyphicon glyphicon-chevron-right"></span>
+  				  </a> -->
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	<!-- END MY SECRET LANGUAGE MODAL -->
+
+	<!-- EDUCATION -->
+		<div id="education">
+			<div class="container">
+				<div class="row">
+					<h2 class="heading">Education</h2>
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title subheading">Oregon State University</h3>
+							</div>
+							<div class="panel-body">
+								<p><span class="glyphicon glyphicon-tree-conifer"></span> Bachelor of Science</p>
+								<p><span class="glyphicon glyphicon-tree-conifer"></span> Major: Economics, <i>cum laude</i></p>
+								<p><span class="glyphicon glyphicon-tree-conifer"></span> Graduated: Fall 2013</p>
+								<p><span class="glyphicon glyphicon-tree-conifer"></span> GPA: 3.77</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3 class="panel-title subheading">Self Taught Coder</h3>
+							</div>
+							<div class="panel-body">
+								<p>I'm a self taught programmer. My first foray into computer science came through a website called <a href="https://see.stanford.edu/" target="_blank">Stanford Engineering Everywhere</a>. By using this site I was able to watch all of Stanford University's CS106A, Programming Methodology, course for free from my home (Side Note: <a href="https://profiles.stanford.edu/mehran-sahami" target="_blank">Mehran Sahami</a>, the professor of that class, is the greatest teacher ever). I began learning Java and C++, then began developing websites by teaching myself HTML and CSS, and eventually moved on to programming with JavaScript and PHP before starting my career as a web developer.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- END EDUCATION -->
+
+	<!-- TECHNICAL SKILLS -->
+		<div id="technical-skills">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="heading">Technical Skills</h2>
+						<div class="col-md-4">
+							<ul>
+								<li>PHP</li>
+								<li>Magento</li>
+								<li>CraftCMS</li>
+								<li>MySQL</li>
+								<li>Linux CLI</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li>HTML5</li>
+								<li>CSS3</li>
+								<li>JavaScript</li>
+								<li>jQuery</li>
+								<li>Git</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<ul>
+								<li>Automated Testing</li>
+								<li>Consuming APIs</li>
+								<li>JIRA / Confluence</li>
+								<li>Vagrant</li>
+								<li>Git / GitHub</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- END TECHNICAL SKILLS -->
+
+	<!-- LINKS -->
+		<div id="links">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="heading">Links</h2>
+						<div class="col-md-6">
+							<a href="https://www.linkedin.com/in/matt-davis-1616a998/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+						</div>
+						<div class="col-md-6">
+							<a href="https://github.com/dmatthew/" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- END LINKS -->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
