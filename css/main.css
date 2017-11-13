@@ -15,7 +15,7 @@ a:hover {
 	color: orange;
 }
 .container {
-	padding: 100px 0px;
+	padding: 100px 15px;
 }
 #landing {
 	background: url(../images/website-full-blur-grey-dark.jpg) no-repeat center center fixed;
