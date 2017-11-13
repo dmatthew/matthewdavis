@@ -75,8 +75,14 @@ h1 {
 	font-size: 1em;
 	text-align: center;
 }
+.panel-default .panel-heading-footer {
+	background-color: #fff;
+}
 #about-me p {
 	font-size: 1.3em;
+}
+#work-experience {
+	background-color: deepskyblue;
 }
 #my-projects {
 	background-color: #32cbd7;
@@ -84,7 +90,7 @@ h1 {
 #my-projects .container-fluid {
 	padding: 100px 0px;
 }
-#my-projects .heading, #education .heading {
+#my-projects .heading, #education .heading, #work-experience .heading {
 	color: #fff;
 }
 .img-project {
