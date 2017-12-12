@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.9
+
+    working_directory: ~/repo
+
+    branches:
+      only:
+        - production
+
+    steps:
+      - checkout
+
+      # Build
+      - run: sudo apt install rsync
+
+      - run: ssh-keyscan -H $DEPLOY_HOST >> ~/.ssh/known_hosts
+      - run: rsync -az ~/repo/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_DIRECTORY --delete
