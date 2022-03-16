@@ -86,12 +86,12 @@ h1 {
 	background-color: deepskyblue;
 }
 #my-projects {
-	background-color: #32cbd7;
+	background-color: #fff;
 }
 #my-projects .container-fluid {
 	padding: 100px 0px;
 }
-#my-projects .heading, #education .heading, #work-experience .heading {
+#education .heading, #work-experience .heading {
 	color: #fff;
 }
 .img-project {
