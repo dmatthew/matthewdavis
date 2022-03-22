@@ -17,7 +17,7 @@ a:hover {
 .container {
 	padding: 100px 15px;
 }
-section:not(:last-child) {
+section:not(:first-child):not(:last-child) {
 	border-bottom: 1px solid #dadada;
 }
 #landing {
